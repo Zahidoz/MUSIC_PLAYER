@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <nav>
+            <img class="logo" src="./imgs/logo.png" alt="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Musics</a></li>
+                <li><a href="#">Playlist</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="hero-half-c">
+                <h1>Musiqi <br> ruhuhuzun <br> qidasidir! <br> CLICK PLAY</h1>
+            </div>
+            <div class="hero-half-c">
+                <img id="playBtn" src="./imgs/play.png" alt="play">
+                <p>Click here to listen!</p>
+            </div>
+        </div>
+    </div>
+
+    <audio id="mySong">
+        <source  src="./chill.mp3" type="audio/mp3">
+    </audio>
+    
+    <script src="app.js"></script>
+</body>
+</html>
